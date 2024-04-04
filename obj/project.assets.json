@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OOP\\SMS\\SMS.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Máy tính\\Hoang-Hieu-Hao\\SMS.csproj",
       "projectName": "SMS",
-      "projectPath": "D:\\OOP\\SMS\\SMS.csproj",
+      "projectPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\Hoang-Hieu-Hao\\SMS.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\OOP\\SMS\\obj\\",
+      "outputPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\Hoang-Hieu-Hao\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
