@@ -2,7 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using SMS.DataContext;
 using SMS.Hoang_Hieu_Hao.Service;
-namespace SMS.Hoang_Hieu_Hao.Pages.Manager
+using SMS.Models;
+
+namespace SMS.Hoang_Hieu_Hao.Pages.Managers
+
 {
     public class Manager_sInformationModel : PageModel
     {

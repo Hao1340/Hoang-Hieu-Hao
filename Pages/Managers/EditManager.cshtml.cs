@@ -4,7 +4,8 @@ using SMS.DataContext;
 using SMS.Hoang_Hieu_Hao.Service;
 using SMS.Models;
 
-namespace SMS.Hoang_Hieu_Hao.Pages.Manager
+namespace SMS.Hoang_Hieu_Hao.Pages.Managers
+
 {
     public class EditManagerModel : PageModel
     {
