@@ -1,9 +1,21 @@
+using SMS.DataContext;
+using SMS.Hoang_Hieu_Hao.Service;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
+
+builder.Services.AddScoped<ManagerService>();
+
+builder.Services.AddScoped<ManagerContext>(provider =>
+{
+    string filePath = "Csv-file/Manager.csv";
+
+    return new ManagerContext(filePath);
+}
+);
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

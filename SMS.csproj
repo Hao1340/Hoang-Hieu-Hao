@@ -6,9 +6,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Hoang-Hieu-Hao\Csv-file\" />
-    <Folder Include="Hoang-Hieu-Hao\Service\" />
-  </ItemGroup>
-
 </Project>
